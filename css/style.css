@@ -1,0 +1,20 @@
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	text-transform: uppercase;
+	/*фон по умолчанию*/
+	background-color: #000000;
+}
+
+.features-name {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.index-content-title {
+	font-size: 30;
+	line-height: 42px;
+}
