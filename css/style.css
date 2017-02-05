@@ -8,6 +8,17 @@ body {
 	/*фон по умолчанию*/
 	background-color: #000000;
 }
+/*html, body {
+	min-width: 1122px;
+	margin:0;
+	padding:0;
+}*/
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 .features-name {
 	font-size: 30px;
@@ -17,4 +28,102 @@ body {
 .index-content-title {
 	font-size: 30;
 	line-height: 42px;
+}
+/*СЕТКА INDEX.HTML*/
+.main-header {
+	margin-bottom: 60px;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main-navigation {
+	float: left;
+	width: 780;
+	/*только для оформления*/
+	min-height: 70px;
+}
+
+.user-block {
+	float: right;
+	width: 140;
+	/*только для оформления*/
+	min-height: 70px;
+}
+
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	/*только для оформления*/
+	min-height: 175px;
+}
+
+/*обрезаем маргин у последнего элемента*/
+.features-item:last-child {
+	margin-right: 0px;
+}
+
+.index-content {
+	margin-bottom: 35px;
+	padding: 50px 80px;
+}
+
+.index-content-left {
+	float: left;
+	width: 380;
+	/*только для оформления*/
+	min-height: 330px;
+	background-color: red;
+}
+
+.index-content-right {
+	float: right;
+	width: 300;
+	/*только для оформления*/
+	min-height: 330px;
+	background-color: orange;
+}
+
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.footer-contacts {
+	float: left;
+	width: 320;
+	/*только для оформления*/
+	min-height: 90px;
+	margin-right: 60px;	
+}
+
+.footer-social {
+	float: left;
+	width: 180;
+	/*только для оформления*/
+	min-height: 90px;	
+}
+
+.footer-copyright {
+	float: right;
+	width: 180;
+	/*только для оформления*/
+	min-height: 90px;	
 }
